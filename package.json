@@ -30,7 +30,7 @@
     "husky": "^0.14.3",
     "coveralls": "^3.0.1",
     "@labshare/semantic-release-config": "^1.0.0",
-    "semantic-release": "^15.5.0"
+    "semantic-release": "15.12.4"
   },
   "scripts": {
     "test": "jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json",
