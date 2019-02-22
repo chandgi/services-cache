@@ -28,7 +28,7 @@
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
     "husky": "^0.14.3",
-    "coveralls": "^3.0.1",
+    "coveralls": "3.0.2",
     "@labshare/semantic-release-config": "^1.0.0",
     "semantic-release": "^15.5.0"
   },
