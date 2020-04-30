@@ -17,7 +17,8 @@
     "express": "4.16.3",
     "lodash": "4.17.10",
     "q": "1.5.1",
-    "redis": "2.8.0"
+    "redis": "2.8.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "body-parser": "1.18.3",
@@ -36,9 +37,12 @@
     "test": "jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json",
     "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json",
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "release": {
     "extends": "@labshare/semantic-release-config"
-  }
+  },
+  "snyk": true
 }
